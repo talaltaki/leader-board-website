@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Leaderboard</title>
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <section class="container">
+                <a class="navbar-brand ml-md-5" href="#">
+                    <img class="brand-logo" src="images/icons/logo.png" alt="">
+                </a>
+                <ul class="navbar-nav mr-md-auto">
+                    <li class="nav-item font-weight-bold brand-name active">
+                      <a class="nav-link" href="#">Idea <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <div class="nav-items ml-auto d-flex flex-sm-row flex-md-row align-items-md-center justify-content-end justify-content-sm-end justify-content-md-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mt-md-3 pl-5 pl-sm-5 pl-md-1 active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item mt-md-3 pl-5 pl-md-1 active">
+                            <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item mt-md-3 pl-5 pl-md-1 pr-1 active">
+                            <a class="nav-link" href="#">Works</a>
+                            </li>
+                            <li class="nav-item pl-5 pl-md-1">
+                                <a class="nav-link" href="#">
+                                    <img class="nav-profile mt-1 mr-md-5" src="images/profiles/profile1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <main class="mx-auto bg-white">
+        <section class="container-fluid top-player">
+            <h3 class="mt-4 pt-5 ml-3 text-primary font-weight-bold">Top Player</h3>
+        </section>
+
+        <section class="container-fluid">
+            <div class="row pt-3 pb-4 ml-1">
+                <div class="col-md-4 col-sm-6 col-6 d-flex align-items-center player">
+                    <img src="images/profiles/profile1.png" alt="">
+                    <p class="pl-3 mt-3 font-weight-bold">Jon Snow</p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6 d-flex align-items-center player">
+                    <img src="images/profiles/profile2.png" alt="">
+                    <p class="pl-3 mt-3 font-weight-bold">Rob Stark</p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6 d-flex align-items-center player">
+                    <img src="images/profiles/profile3.png" alt="">
+                    <p class="pl-3 mt-3 font-weight-bold">Ned Stark</p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6 d-flex align-items-center player pt-2">
+                    <img src="images/profiles/profile4.png" alt="">
+                    <p class="pl-3 mt-3 font-weight-bold">Jaime Lannister</p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6 d-flex align-items-center player pt-2">
+                    <img src="images/profiles/profile5.png" alt="">
+                    <p class="pl-3 mt-3 font-weight-bold">Tyrion Lannister</p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6 d-flex align-items-center player pt-2">
+                    <img src="images/profiles/profile6.png" alt="">
+                    <p class="pl-3 mt-3 font-weight-bold">Bran Stark</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="w-75">
+
+        <section class="container-fluid top-blog pb-5">
+            <h3 class="mt-5 ml-3 text-primary font-weight-bold">Top Blog</h3>
+            <div class="row">
+                <div class="flex-column flex-sm-row col-md-6 col-sm-6 d-flex align-items-center pt-4">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="images/blogs/blog1.png" alt="">
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <h4>13 of My Favorite UI/UX Goodies</h4>
+                        <p  class="text-primary"><span class="text-secondary">By</span> Sansa Stark</p>
+                    </div>
+                </div>
+                <div class="flex-column flex-sm-row col-md-6 col-sm-6 d-flex align-items-center pt-4">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="images/blogs/blog2.png" alt="">
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <h4>UI Cheat Sheet: List vs Grid</h4>
+                        <p class="text-primary"><span class="text-secondary">By</span> Arya Stark</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="flex-column flex-sm-row col-md-6 col-sm-6 d-flex align-items-center pt-4">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="images/blogs/blog3.png" alt="">
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <h4>7 Typography Tips for Interface Design</h4>
+                        <p class="text-primary"><span class="text-secondary">By</span> Daeneris Targeriyan</p>
+                    </div>
+                </div>
+                <div class="flex-column flex-sm-row col-md-6 col-sm-6 d-flex align-items-center pt-4">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="images/blogs/blog4.png" alt="">
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <h4>Your Logo is Copied</h4>
+                        <p class="text-primary"><span class="text-secondary">By</span> Cersei Lannister</p>
+                    </div>
+               </div>
+            </div>
+        </section>
+    </main>
+
+    <main class="mx-auto bg-white">
+        <section class="container-fluid latest-course">
+            <h3 class="mt-4 pt-5 ml-3 text-primary font-weight-bold">Latest Course</h3>
+        </section>
+
+        <section class="container-fluid course-detail">
+            <div class="container-fluid card-deck mt-4 mb-5 pb-5">
+                <div class="card">
+                  <img class="card-img-top img-fluid course-image" src="images/courses/course1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">React - The Complete Guide 2020</h5>
+                        <p class="card-text text-danger">Petyr Baelish</p>
+                        <div class="row">
+                            <div class="col-md-6 pt-md-2 col-sm-12 col-12">
+                                <span class="text-warning">☆</span><span class="text-warning">☆</span><span class="text-warning">☆</span><span class="text-warning">☆</span><span>☆</span>
+                                <small><span>4.5</span></small>
+                            </div>
+                            <div class="col-md-6 pt-md-0 pl-md-4 col-sm-12 pt-sm-2 col-12 pt-2">
+                                <button type="button" class="btn btn-hrs">
+                                    <span>🕓</span>
+                                    <small><span>01:30 hr</span></small>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top img-fluid course-image" src="images/courses/course2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">PowerPoint 2020 - The Master of PowerPoint</h5>
+                        <p class="card-text text-danger">Rhaegar Targeriyan</p>
+                        <div class="row">
+                            <div class="col-md-6 pt-md-2 col-sm-12 col-12">
+                                <span class="text-warning">☆</span><span class="text-warning">☆</span><span class="text-warning">☆</span><span class="text-warning">☆</span><span>☆</span>
+                                <small><span>4.5</span></small>
+                            </div>
+                            <div class="col-md-6 pt-md-0 pl-md-4 col-sm-12 pt-sm-2 col-12 pt-2">
+                                <button type="button" class="btn btn-hrs">
+                                    <span>🕓</span>
+                                    <small><span>01:30 hr</span></small>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top img-fluid course-image" src="images/courses/course3.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">The Complete JavaScript Course 2020</h5>
+                        <p class="card-text text-danger">Katelyn Tully</p>
+                        <div class="row">
+                            <div class="col-md-6 pt-md-2 col-sm-12 col-12">
+                                <span class="text-warning">☆</span><span class="text-warning">☆</span><span class="text-warning">☆</span><span class="text-warning">☆</span><span>☆</span>
+                                <small><span>4.5</span></small>
+                            </div>
+                            <div class="col-md-6 pt-md-0 pl-md-4 col-sm-12 pt-sm-2 col-12 pt-2">
+                                <button type="button" class="btn btn-hrs">
+                                    <span>🕓</span>
+                                    <small><span>01:30 hr</span></small>
+                                </button>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
